@@ -1,10 +1,17 @@
 import React from 'react'
+import { Box, Stack, Divider } from '@mui/material'
 
-import { Box } from '@mui/material'
-
-export const MuiBox = () => {
+export const MuiStack = () => {
   return (
-    <>
+    //Stack is useful for one dimantional layouts
+    <Stack
+      sx={{
+        border: '1px solid ',
+      }}
+      direction='row'
+      spacing={2}
+      divider={<Divider orientation='vertical' flexItem />}
+    >
       <Box
         //   component='span'
         sx={{
@@ -29,6 +36,6 @@ export const MuiBox = () => {
       >
         Okay
       </Box>
-    </>
+    </Stack>
   )
 }
