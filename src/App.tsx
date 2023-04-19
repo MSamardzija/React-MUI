@@ -13,6 +13,7 @@ import { MuiStack } from './components/MuiStack'
 import { MuiGrid } from './components/MuiGrid'
 import { MuiCard } from './components/MuiCard'
 import { MuiAccordion } from './components/MuiAccordion'
+import { MuiImagesList } from './components/MuiImagesList'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <MuiStack /> */}
       {/* <MuiGrid /> */}
       {/* <MuiCard /> */}
-      <MuiAccordion />
+      {/* <MuiAccordion /> */}
+      <MuiImagesList />
     </div>
   )
 }
