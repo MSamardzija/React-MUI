@@ -15,6 +15,7 @@ import { MuiCard } from './components/MuiCard'
 import { MuiAccordion } from './components/MuiAccordion'
 import { MuiImagesList } from './components/MuiImagesList'
 import { MuiNavbar } from './components/MuiNavbar'
+import { MuiLink } from './components/MuiLink'
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImagesList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
+      <MuiLink />
     </div>
   )
 }
