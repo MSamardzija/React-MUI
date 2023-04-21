@@ -42,7 +42,6 @@ export const MuiList = () => {
           <ListItemText secondary='text2' primary='List item 2' />
         </ListItem>
         <Divider />
-
         <ListItem>
           <ListItemIcon>
             <ListItemAvatar>
